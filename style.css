@@ -7,22 +7,38 @@ body{
 
 .header{
     background: #1f2937;
-    height: 400px;
+    min-height: 400px;
 }
 
 .head1{
     display: flex;
     justify-content: space-between;
+    margin: 0 200px;
+    align-items: center;
+}
+
+.head2{
+    display: flex;
+    margin: 70px 200px 100px 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header , .footer{
+    justify-content: space-between;
+}
+/* .section{
+    display: flex;
+    flex:1;
+} */
+
+a{
+    text-decoration: none;
 }
 
 ul{
     list-style: none;
-    text-decoration: none;
-}
-
-.menu{
     display:flex;
-    gap:20px;
+    gap:30px;
 }
 
 
@@ -39,31 +55,42 @@ ul{
     margin-bottom: 0;
 }
 
-.imgtext{
+.imgtext p{
     width: 160px;
     text-align: center;
     font-size: 18px;
-    margin:0;
-    padding:0;
+    /* border:1px solid green; */
+    margin-top:5px
 }
 
 .text1{
     color:#f9faf8;
     font-weight:bolder;
     font-size: 48px;
+    max-width: 300px;
 }
 
-.texth,.menu {
+.texth, a {
     color:#e5e7eb;
     font-size: 18px;
+    max-width: 400px;
+}
+.texth p{
+    margin: 3px 0; 
 }
 .logo{
     color:#f9faf8;
     font-size: 24px;
+    /* padding-top:10px; */
 }
 
-button {
-    color:#3882f6
+.place1 button{
+    padding:7px 30px;
+    border-radius: 6px;
+    border:1px solid #1f2937;
+    color: white;
+    background:#3882f6;
+    font-size: 16px;
 }
 
 .section3 {
@@ -71,6 +98,11 @@ button {
     margin:100px 200px;
     padding:50px 120px;
     border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex:1;
 }
 
 .shots{
@@ -83,6 +115,9 @@ button {
 
 .section2{
     background: #e5e7eb;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
 
 .bloq p{
@@ -91,27 +126,32 @@ button {
     font-style: italic;
     color: #1f2937;
     text-align: justify;
+    /* border:1px solid green; */
+    margin-bottom: 10px;
 }
 
 .bloq{
    margin:100px 350px;
-}
-.bloq.cite:nth-child(1){
-    align-self: flex-end;
+   /* border:1px solid green */
 }
 
 cite{
     font-weight: bolder;
-    font-size:18px;   
+    font-size:18px;  
+    margin-left:330px;
+    /* border:1px solid black;    */
 }
 
 /* SOLUTIONS */
 
 .holder1{
-    height:300px;
-    width: 500px;
-    border: 1px solid white;
-    color:lightgrey;
+    height:210px;
+    width: 450px;
+    border: 3px #222b38;
+    color:whitesmoke;
+    background: rgba(128, 128, 128, 0.562);
+    border-style: none none ridge ridge;
+    
 }
 
 .imgroups{
@@ -120,13 +160,6 @@ cite{
     gap: 40px;
     margin-bottom: 100px;
 }
-
-.section2{
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-}
-
 .text2{
     font-weight: bolder;
     font-size: 24px;
@@ -139,11 +172,6 @@ cite{
     font-weight: normal;
 }
 
-.section3{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .button2 button{
     padding:5px 20px;
