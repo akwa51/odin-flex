@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     margin:0;
     min-height: 100vh;
+    font-family: 'Arial', Helvetica, sans-serif;
 }
 
 .header{
@@ -48,42 +49,59 @@ ul{
 }
 
 .imgfile{
-    border: 3px solid dodgerblue;
+    /* border: 3px solid dodgerblue; */
     height: 160px;
     width: 160px;
     border-radius: 10px;
     margin-bottom: 0;
 }
 
+.imgfile img{
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.imgfile img:hover{
+    transform: scale(1.1);
+   transition-duration: 1s;
+}
+
 .imgtext p{
     width: 160px;
     text-align: center;
     font-size: 18px;
-    /* border:1px solid green; */
-    margin-top:5px
+    margin-top:10px
 }
 
 .text1{
     color:#f9faf8;
     font-weight:bolder;
     font-size: 48px;
-    max-width: 300px;
+    max-width: 400px;
+ 
 }
 
 .texth, a {
     color:#e5e7eb;
     font-size: 18px;
     max-width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .texth p{
-    margin: 3px 0; 
+    margin: 7px 0; 
 }
 .logo{
     color:#f9faf8;
     font-size: 24px;
-    /* padding-top:10px; */
+    margin-top:5px
 }
 
+.logo img{
+    height: auto;
+    width: 50%;
+    border:1px solid #222b38
+}
 .place1 button{
     padding:7px 30px;
     border-radius: 6px;
@@ -91,6 +109,7 @@ ul{
     color: white;
     background:#3882f6;
     font-size: 16px;
+    margin-top: 5px;
 }
 
 .section3 {
@@ -110,7 +129,7 @@ ul{
     font-size: 36px;
     color:#1f2937;
     text-align: center;
-    margin: 35px 0;
+    margin: 30px 0;
 }
 
 .section2{
@@ -121,6 +140,7 @@ ul{
 }
 
 .bloq p{
+    font-family: 'Arial Narrow';
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
@@ -128,36 +148,40 @@ ul{
     text-align: justify;
     /* border:1px solid green; */
     margin-bottom: 10px;
+
 }
 
 .bloq{
-   margin:100px 350px;
-   /* border:1px solid green */
+   margin:100px 280px;
 }
 
 cite{
     font-weight: bolder;
     font-size:18px;  
-    margin-left:330px;
+    margin-left:370px;
     /* border:1px solid black;    */
 }
 
 /* SOLUTIONS */
 
 .holder1{
-    height:210px;
-    width: 450px;
+    height:250px;
+    width: 380px;
     border: 3px #222b38;
     color:whitesmoke;
     background: rgba(128, 128, 128, 0.562);
-    border-style: none none ridge ridge;
-    
+    border-style: none none ridge ridge;   
+}
+
+.holder1 img{
+    height: auto;
+    width:100%;
 }
 
 .imgroups{
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
     margin-bottom: 100px;
 }
 .text2{
