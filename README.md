@@ -1,7 +1,7 @@
 # odin-flex
 This website seeks to design a website using CSS Flexbox styling. 
 
-Credits to the following for Photo Shots were obtained from Pexel.com
+Credits to the following for Photo Shots downloaded from Pexel.com
 
 1. Arnie Chou (https://www.pexels.com/@arnie-chou-304906?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
 
